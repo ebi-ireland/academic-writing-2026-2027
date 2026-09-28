@@ -1,0 +1,15 @@
+# --- Copyrighted / third-party materials: keep LOCAL, never publish ---
+*.pdf
+*.pptx
+*.ppt
+Final Year Project Proposal Form*.docx
+Project Technical Report Template.docx
+Lecture Slides/
+References Papers/
+Report Template/
+
+# --- OS / OneDrive junk ---
+Thumbs.db
+Desktop.ini
+~$*
+.DS_Store
