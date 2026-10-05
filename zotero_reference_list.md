@@ -289,43 +289,43 @@ Notes: the **2026 edition came out on 22 Sep 2026**, which is newer than when yo
 
 ---
 
-## Not pasted in your message (items 1 and 2 of the repo list)
+## Items 1 and 2 (as registered in Zotero)
 
 ### 1. Strom et al. (2018, rev. 2020): MITRE ATT&CK: Design and Philosophy
 | Field | Value |
 |---|---|
 | Item Type | **Report** |
-| Title | MITRE ATT&CK: Design and Philosophy |
-| Author | Strom, Blake E. · Applebaum, Andy · Miller, Doug P. · Nickels, Kathryn C. · Pennington, Adam G. · Thomas, Cody B. |
-| Report Number | MP180360R1 |
-| Report Type | MITRE Product |
-| Place | McLean, VA |
+| Title | MITRE ATT&CK®: Design and Philosophy |
+| Author (Last, First) | Strom, Blake E · Applebaum, Andy · Miller, Doug P. · Nickels, Kathryn C. · Pennington, Adam G. · Thomas, Cody B. |
+| Report Type | Technical Report |
 | Institution | The MITRE Corporation |
+| Place | McLean, VA |
 | Date | 2020-03 |
-| Pages | 35 *(total pages; in Zotero's Report type this field holds the page count)* |
-| URL | https://attack.mitre.org/docs/ATTACK_Design_and_Philosophy_March_2020.pdf |
-| Accessed | *(your date)* |
-| Rights | © 2020 The MITRE Corporation. Approved for Public Release; Distribution Unlimited 19-01075-28 |
-| Extra | original-date: 2018-07 |
+| URL | https://www.mitre.org/sites/default/files/2021-11/prs-19-01075-28-mitre-attack-design-and-philosophy.pdf |
+| Accessed | 2026-09-28 |
+| Short Title | MITRE ATT&CK |
+| Language | English |
+| Extra | Originated out of a project to document and categorize post compromise adversary tactics, techniques and procedures |
 
-Notes: the `original-date:` line in Extra lets the citation style show the original 2018 year as well, if it supports that.
+Notes: the cover of the PDF also gives the document number **MP180360R1** (fits the Report Number field) and the original July 2018 publication date. Neither is in the Zotero record yet.
 
-### 2. Applebaum et al. (2016): Intelligent, Automated Red Team Emulation
+### 2. Alford, Lawrence & Kouremetis (2022): CALDERA: A Red-Blue Cyber Operations Automation Platform
 | Field | Value |
 |---|---|
-| Item Type | **Conference Paper** |
-| Title | Intelligent, Automated Red Team Emulation |
-| Author | Applebaum, Andy · Miller, Doug · Strom, Blake · Korban, Chris · Wolf, Ross |
-| Proceedings Title | Proceedings of the 32nd Annual Conference on Computer Security Applications |
-| Conference Name | ACSAC '16: 2016 Annual Computer Security Applications Conference (Los Angeles, CA, 5–8 Dec 2016) |
-| Place | New York, NY, USA |
-| Publisher | Association for Computing Machinery |
-| Pages | 363–373 |
-| Date | 2016-12-05 |
-| DOI | 10.1145/2991079.2991111 |
-| ISBN | ⚠ not confirmed (Crossref record has none) |
-| URL | https://doi.org/10.1145/2991079.2991111 |
-| Short Title | Intelligent, Automated Red Team Emulation |
+| Item Type | **Report** |
+| Title | CALDERA: A Red-Blue Cyber Operations Automation Platform |
+| Author (Last, First) | Alford, Ron · Lawrence, Dean · Kouremetis, Michael |
+| Report Number | 21-03192-1 |
+| Report Type | Conference paper |
+| Institution | The MITRE Corporation |
+| Place | Singapore |
+| Date | 2022 |
+| URL | https://icaps22.icaps-conference.org/demos/ICAPS_2022_paper_375.pdf |
+| Accessed | 2026-09-29 |
+| Short Title | CALDERA |
+| Language | English |
+
+Notes: this is the ICAPS 2022 demo paper listed under item 2 as "related". The repo list's main item 2, Applebaum et al., "Intelligent, Automated Red Team Emulation", ACSAC 2016, pp. 363–373, DOI 10.1145/2991079.2991111, is a different paper and is not registered in Zotero.
 
 ---
 
@@ -333,5 +333,5 @@ Notes: the `original-date:` line in Extra lets the citation style show the origi
 - **Olsen (13)**: university, year, degree, pages. Open the ProQuest link.
 - **MITRE ATT&CK Evaluations (11)**: your URL is the wrong page; pick the round you cite.
 - **PTEF (12)**: date. Red Canary (14): exact release day and place.
-- **ACM CSUR article number (4)** and **ACSAC '16 ISBN (2)**: Zotero's "Add by Identifier" may fill these.
+- **ACM CSUR article number (4)**: Zotero's "Add by Identifier" may fill this.
 - **Preprints 3, 5, 10**: no peer-reviewed version found. I could not reach DBLP, so re-check there before you submit.
