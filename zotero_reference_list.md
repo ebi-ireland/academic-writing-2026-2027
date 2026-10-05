@@ -13,6 +13,46 @@ Prepared 5 Oct 2026. Source list: `reference_list_verified.md` in the academic-w
 
 ---
 
+## Layer A: Theory and framework foundations
+
+### 1. Strom et al. (2018, rev. 2020): MITRE ATT&CK: Design and Philosophy
+| Field | Value |
+|---|---|
+| Item Type | **Report** |
+| Title | MITRE ATT&CK®: Design and Philosophy |
+| Author (Last, First) | Strom, Blake E · Applebaum, Andy · Miller, Doug P. · Nickels, Kathryn C. · Pennington, Adam G. · Thomas, Cody B. |
+| Report Type | Technical Report |
+| Institution | The MITRE Corporation |
+| Place | McLean, VA |
+| Date | 2020-03 |
+| URL | https://www.mitre.org/sites/default/files/2021-11/prs-19-01075-28-mitre-attack-design-and-philosophy.pdf |
+| Accessed | 2026-09-28 |
+| Short Title | MITRE ATT&CK |
+| Language | English |
+| Extra | Originated out of a project to document and categorize post compromise adversary tactics, techniques and procedures |
+
+Notes: the cover of the PDF also gives the document number **MP180360R1** (fits the Report Number field) and the original July 2018 publication date. Neither is in the Zotero record yet.
+
+### 2. Alford, Lawrence & Kouremetis (2022): CALDERA: A Red-Blue Cyber Operations Automation Platform
+| Field | Value |
+|---|---|
+| Item Type | **Report** |
+| Title | CALDERA: A Red-Blue Cyber Operations Automation Platform |
+| Author (Last, First) | Alford, Ron · Lawrence, Dean · Kouremetis, Michael |
+| Report Number | 21-03192-1 |
+| Report Type | Conference paper |
+| Institution | The MITRE Corporation |
+| Place | Singapore |
+| Date | 2022 |
+| URL | https://icaps22.icaps-conference.org/demos/ICAPS_2022_paper_375.pdf |
+| Accessed | 2026-09-29 |
+| Short Title | CALDERA |
+| Language | English |
+
+Notes: this is the ICAPS 2022 demo paper listed under item 2 as "related". The repo list's main item 2, Applebaum et al., "Intelligent, Automated Red Team Emulation", ACSAC 2016, pp. 363–373, DOI 10.1145/2991079.2991111, is a different paper and is not registered in Zotero.
+
+---
+
 ## Layer B: Core: detection coverage / evaluation
 
 ### 3. Roy et al. (2023): SoK: The MITRE ATT&CK Framework in Research and Practice
@@ -286,46 +326,6 @@ Previous edition, if you prefer it:
 | Extra | Grey literature. Covers 1 Jul 2024–30 Jun 2025. Current file is v1.3 (Sep 2026, corrected figures). |
 
 Notes: the **2026 edition came out on 22 Sep 2026**, which is newer than when your list was written. It is the one to cite for currency. For the 2026 edition, the front matter gives "ENISA" as the author.
-
----
-
-## Items 1 and 2 (as registered in Zotero)
-
-### 1. Strom et al. (2018, rev. 2020): MITRE ATT&CK: Design and Philosophy
-| Field | Value |
-|---|---|
-| Item Type | **Report** |
-| Title | MITRE ATT&CK®: Design and Philosophy |
-| Author (Last, First) | Strom, Blake E · Applebaum, Andy · Miller, Doug P. · Nickels, Kathryn C. · Pennington, Adam G. · Thomas, Cody B. |
-| Report Type | Technical Report |
-| Institution | The MITRE Corporation |
-| Place | McLean, VA |
-| Date | 2020-03 |
-| URL | https://www.mitre.org/sites/default/files/2021-11/prs-19-01075-28-mitre-attack-design-and-philosophy.pdf |
-| Accessed | 2026-09-28 |
-| Short Title | MITRE ATT&CK |
-| Language | English |
-| Extra | Originated out of a project to document and categorize post compromise adversary tactics, techniques and procedures |
-
-Notes: the cover of the PDF also gives the document number **MP180360R1** (fits the Report Number field) and the original July 2018 publication date. Neither is in the Zotero record yet.
-
-### 2. Alford, Lawrence & Kouremetis (2022): CALDERA: A Red-Blue Cyber Operations Automation Platform
-| Field | Value |
-|---|---|
-| Item Type | **Report** |
-| Title | CALDERA: A Red-Blue Cyber Operations Automation Platform |
-| Author (Last, First) | Alford, Ron · Lawrence, Dean · Kouremetis, Michael |
-| Report Number | 21-03192-1 |
-| Report Type | Conference paper |
-| Institution | The MITRE Corporation |
-| Place | Singapore |
-| Date | 2022 |
-| URL | https://icaps22.icaps-conference.org/demos/ICAPS_2022_paper_375.pdf |
-| Accessed | 2026-09-29 |
-| Short Title | CALDERA |
-| Language | English |
-
-Notes: this is the ICAPS 2022 demo paper listed under item 2 as "related". The repo list's main item 2, Applebaum et al., "Intelligent, Automated Red Team Emulation", ACSAC 2016, pp. 363–373, DOI 10.1145/2991079.2991111, is a different paper and is not registered in Zotero.
 
 ---
 
