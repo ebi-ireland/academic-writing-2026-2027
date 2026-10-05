@@ -31,6 +31,8 @@ Prepared 5 Oct 2026. Source list: `reference_list_verified.md` in the academic-w
 | Language | English |
 | Extra | Originated out of a project to document and categorize post compromise adversary tactics, techniques and procedures |
 
+**Harvard:** Strom, B. E., Applebaum, A., Miller, D. P., Nickels, K. C., Pennington, A. G., & Thomas, C. B. (2020). *MITRE ATT&CK®: Design and Philosophy*. Online. McLean, VA: The MITRE Corporation. Available at: https://www.mitre.org/sites/default/files/2021-11/prs-19-01075-28-mitre-attack-design-and-philosophy.pdf [Accessed 28th September 2026].
+
 Notes: the cover of the PDF also gives the document number **MP180360R1** (fits the Report Number field) and the original July 2018 publication date. Neither is in the Zotero record yet.
 
 ### 2. Alford, Lawrence & Kouremetis (2022): CALDERA: A Red-Blue Cyber Operations Automation Platform
@@ -48,6 +50,8 @@ Notes: the cover of the PDF also gives the document number **MP180360R1** (fits 
 | Accessed | 2026-09-29 |
 | Short Title | CALDERA |
 | Language | English |
+
+**Harvard:** Alford, R., Lawrence, D., & Kouremetis, M. (2022). *CALDERA: A Red-Blue Cyber Operations Automation Platform*. Online. Singapore: The MITRE Corporation. Available at: https://icaps22.icaps-conference.org/demos/ICAPS_2022_paper_375.pdf [Accessed 29th September 2026].
 
 Notes: this is the ICAPS 2022 demo paper listed under item 2 as "related". The repo list's main item 2, Applebaum et al., "Intelligent, Automated Red Team Emulation", ACSAC 2016, pp. 363–373, DOI 10.1145/2991079.2991111, is a different paper and is not registered in Zotero.
 
@@ -70,6 +74,8 @@ Notes: this is the ICAPS 2022 demo paper listed under item 2 as "related". The r
 | Rights | arXiv non-exclusive distribution licence 1.0 |
 | Extra | Preprint, not peer reviewed. Only v1 exists; no journal reference on arXiv. |
 
+**Harvard:** Roy, S., Panaousis, E., Noakes, C., Laszka, A., Panda, S., & Loukas, G. (2023). *SoK: The MITRE ATT&CK Framework in Research and Practice*. Preprint. arXiv:2304.07411. Available at: https://arxiv.org/abs/2304.07411 [Accessed 5th October 2026].
+
 Notes: your list says "et al." after Panaousis. There are **6 authors**, Roy is first. No peer-reviewed version was found (arXiv has no journal ref; a Crossref search found nothing). I could not reach DBLP from here, so do one last check there before submission.
 
 ### 4. ★Anchor★ Al-Sada, Sadighian & Oligeri (2024): MITRE ATT&CK: State of the Art and Way Forward
@@ -91,6 +97,8 @@ Notes: your list says "et al." after Panaousis. There are **6 authors**, Roy is 
 | Rights | © ACM (standard ACM copyright) |
 | Extra | ⚠ ACM article number not confirmed (Crossref record gives pages 1–37 only). Earlier arXiv version: arXiv:2308.14016 |
 
+**Harvard:** Al-Sada, B., Sadighian, A., & Oligeri, G. (2024). 'MITRE ATT&CK: State of the Art and Way Forward'. *ACM Computing Surveys*, 57(1), pp. 1–37. Available at: https://doi.org/10.1145/3687300 [Accessed 5th October 2026].
+
 Notes: your list had no authors. Authors come from the Crossref record.
 
 ### 5. Jiang et al. (2025): MITRE ATT&CK Applications in Cybersecurity and The Way Forward
@@ -107,6 +115,8 @@ Notes: your list had no authors. Authors come from the Crossref record.
 | Short Title | MITRE ATT&CK Applications in Cybersecurity |
 | Rights | arXiv non-exclusive distribution licence 1.0 |
 | Extra | Preprint, not peer reviewed. 37 pages. |
+
+**Harvard:** Jiang, Y., Meng, Q., Shang, F., Oo, N., Minh, L. T. H., Lim, H. W., & Sikdar, B. (2025). *MITRE ATT&CK Applications in Cybersecurity and The Way Forward*. Preprint. arXiv:2502.10825. Available at: https://arxiv.org/abs/2502.10825 [Accessed 5th October 2026].
 
 Notes: your list had no authors. ⚠ "Le Thi Hong Minh" is a Vietnamese name; arXiv lists it in that order. Check the PDF author line to decide which part is the family name. No published version was found.
 
@@ -129,6 +139,8 @@ Notes: your list had no authors. ⚠ "Le Thi Hong Minh" is a Vietnamese name; ar
 | Rights | CC BY 4.0 |
 | Extra | Publisher: MDPI (Basel). |
 
+**Harvard:** Karantzas, G., & Patsakis, C. (2021). 'An Empirical Assessment of Endpoint Detection and Response Systems against Advanced Persistent Threats Attack Vectors'. *Journal of Cybersecurity and Privacy*, 1(3), pp. 387–421. Available at: https://doi.org/10.3390/jcp1030021 [Accessed 5th October 2026].
+
 Notes: your list had no title or DOI. Both are now filled from Crossref.
 
 ### 7. Shen et al. (2024): Decoding the MITRE Engenuity ATT&CK Enterprise Evaluation
@@ -149,6 +161,8 @@ Notes: your list had no title or DOI. Both are now filled from Crossref.
 | Short Title | Decoding the MITRE Engenuity ATT&CK Enterprise Evaluation |
 | Rights | CC BY 4.0 |
 | Extra | Preprint: arXiv:2401.15878 |
+
+**Harvard:** Shen, X., Li, Z., Burleigh, G., Wang, L., & Chen, Y. (2024). 'Decoding the MITRE Engenuity ATT&CK Enterprise Evaluation: An Analysis of EDR Performance in Real-World Environments'. In: *Proceedings of the 19th ACM Asia Conference on Computer and Communications Security (ASIA CCS '24)*, Singapore, 1–5 July 2024. New York, NY: Association for Computing Machinery, pp. 96–111. Available at: https://doi.org/10.1145/3634737.3645012 [Accessed 5th October 2026].
 
 Notes: the full title is longer than in your list (adds "…in Real-World Environments"). Pages are from Crossref. The arXiv preprint shows "Article 237, 1–20", but that is preprint layout, so don't use it.
 
@@ -171,6 +185,8 @@ Notes: the full title is longer than in your list (adds "…in Real-World Enviro
 | Rights | Open access (USENIX) |
 | Extra | Distinguished Artifact Award |
 
+**Harvard:** Uetz, R., Herzog, M., Hackländer, L., Schwarz, S., & Henze, M. (2024). 'You Cannot Escape Me: Detecting Evasions of SIEM Rules in Enterprise Networks'. In: *33rd USENIX Security Symposium (USENIX Security 24)*, Philadelphia, PA, August 2024. USENIX Association, pp. 5179–5196. Available at: https://www.usenix.org/conference/usenixsecurity24/presentation/uetz [Accessed 5th October 2026].
+
 Source: the official USENIX BibTeX on the presentation page.
 
 ### 9. ★H3★ Tyagi (2026): Static Quality Assessment of Sigma Detection Rules
@@ -186,6 +202,8 @@ Source: the official USENIX BibTeX on the presentation page.
 | URL | https://ssrn.com/abstract=6823718 |
 | Short Title | Static Quality Assessment of Sigma Detection Rules |
 | Extra | Preprint, not peer reviewed. 24 pages. Posted 5 Jun 2026. Author affiliation: Independent. Also deposited at Zenodo: 10.5281/zenodo.20371761 |
+
+**Harvard:** Tyagi, N. (2026). *Static Quality Assessment of Sigma Detection Rules: Framework and Empirical Evaluation*. Preprint. SSRN. Available at: https://doi.org/10.2139/ssrn.6823718 [Accessed 5th October 2026].
 
 Notes: SSRN gives the date written as 24 May 2026 and the posting date as 5 June 2026. Its suggested citation uses the 24 May date. The author is **independent**, not affiliated with a university. That is worth weighing if you rely on it for H3.
 
@@ -204,6 +222,8 @@ Notes: SSRN gives the date written as 24 May 2026 and the posting date as 5 June
 | Rights | arXiv non-exclusive distribution licence 1.0 |
 | Extra | Preprint, not peer reviewed. |
 
+**Harvard:** Shukla, A., Gandhi, P. A., Elovici, Y., & Shabtai, A. (2025). *RuleGenie: SIEM Detection Rule Set Optimization*. Preprint. arXiv:2505.06701. Available at: https://arxiv.org/abs/2505.06701 [Accessed 5th October 2026].
+
 Notes: your list had no authors. No published version was found.
 
 ---
@@ -221,6 +241,8 @@ Notes: your list had no authors. No published version was found.
 | Accessed | *(your date)* |
 | Extra | Grey literature |
 
+**Harvard:** ⚠ Template until you choose the evaluation round: MITRE (Year). *[Title of the evaluation round page]*. Online. MITRE ATT&CK Evaluations. Available at: [URL of that page] [Accessed Day Month Year].
+
 Notes: ⚠ **The URL in your list points to the wrong page.** `attack.mitre.org/resources/adversary-emulation-plans/` is the *adversary emulation plans* page, not the Evaluations. The Evaluations (methodology and results) are published on MITRE's separate Evaluations site. Cite the specific round you use, e.g. "Enterprise 2024", with its own page URL and title. I did not register a single page here because the right one depends on the round you read.
 
 ### 12. SCYTHE: Purple Team Exercise Framework (PTEF)
@@ -236,6 +258,8 @@ Notes: ⚠ **The URL in your list points to the wrong page.** `attack.mitre.org/
 | Accessed | *(your date)* |
 | Rights | MIT License (per the GitHub repository) |
 | Extra | Grey literature. Version 4. |
+
+**Harvard:** SCYTHE (n.d.). *Purple Team Exercise Framework (PTEF)*, version 4. Online. SCYTHE. Available at: https://github.com/scythe-io/purple-team-exercise-framework [Accessed 5th October 2026].
 
 Notes: Report (not Software) because PTEF is a methodology document. For Harvard, use "n.d." unless you find a date in PTEFv4.md.
 
@@ -253,6 +277,8 @@ Notes: Report (not Software) because PTEF is a methodology document. For Harvard
 | URL | https://www.proquest.com/docview/2658836337 |
 | Extra | Practitioner resources: https://github.com/ch33r10/EnterprisePurpleTeaming |
 
+**Harvard:** Olsen, X. (n.d. ⚠). *Enterprise Purple Teaming: An Exploratory Qualitative Study*. Doctoral dissertation. ⚠ [University]. Available at: https://www.proquest.com/docview/2658836337 [Accessed 5th October 2026].
+
 Notes: **cite the dissertation, not the GitHub repo.** The repo is only a companion. ProQuest blocked my access, so the university, year and degree are not confirmed. The committee names in the repo, and the hosting on the WRLC repository (muislandora), suggest **Marymount University (Arlington, VA)**. That is an inference. Open the ProQuest link and copy the university, year and page count from there.
 
 ### 14. Red Canary: Threat Detection Report
@@ -267,6 +293,8 @@ Notes: **cite the dissertation, not the GitHub repo.** The repo is only a compan
 | URL | https://redcanary.com/threat-detection-report/ |
 | Accessed | *(your date)* |
 | Extra | Grey literature. Annual. |
+
+**Harvard:** Red Canary (2026). *2026 Threat Detection Report*. Online. Red Canary. Available at: https://redcanary.com/threat-detection-report/ [Accessed 5th October 2026].
 
 Notes: the current edition is 2026, released in mid-March 2026. A press article of 25 Mar 2026 says it "came out last week", but I found no exact day. Your list gave no year. If you used an earlier edition, change the year in the title and date.
 
@@ -292,6 +320,8 @@ Notes: the current edition is 2026, released in mid-March 2026. A press article 
 | Rights | U.S. Government work (public domain in the US) |
 | Extra | Standard. 2007 version is still final; the 2012 draft Rev. 1 was retired and never finalised. |
 
+**Harvard:** Scarfone, K., & Mell, P. (2007). *Guide to Intrusion Detection and Prevention Systems (IDPS)*. NIST Special Publication 800-94. Gaithersburg, MD: National Institute of Standards and Technology. Available at: https://doi.org/10.6028/NIST.SP.800-94 [Accessed 5th October 2026].
+
 Notes: cite the **2007** edition. Don't cite "Rev. 1"; that draft was never finalised and has been retired.
 
 ### ENISA Threat Landscape (annual): latest edition
@@ -309,6 +339,8 @@ Notes: cite the **2007** edition. Don't cite "Rev. 1"; that draft was never fina
 | Rights | CC BY 4.0 |
 | Extra | Grey literature. Covers 1 Jan–31 Dec 2025. TLP:CLEAR. |
 
+**Harvard:** European Union Agency for Cybersecurity (ENISA) (2026). *ENISA Threat Landscape 2026*. Online. European Union Agency for Cybersecurity. Available at: https://doi.org/10.2824/0806036 [Accessed 5th October 2026].
+
 Previous edition, if you prefer it:
 
 | Field | Value |
@@ -324,6 +356,8 @@ Previous edition, if you prefer it:
 | URL | https://www.enisa.europa.eu/publications/enisa-threat-landscape-2025 |
 | Rights | CC BY 4.0 |
 | Extra | Grey literature. Covers 1 Jul 2024–30 Jun 2025. Current file is v1.3 (Sep 2026, corrected figures). |
+
+**Harvard:** European Union Agency for Cybersecurity (ENISA) (2025). *ENISA Threat Landscape 2025*. Online. European Union Agency for Cybersecurity. Available at: https://doi.org/10.2824/1946374 [Accessed 5th October 2026].
 
 Notes: the **2026 edition came out on 22 Sep 2026**, which is newer than when your list was written. It is the one to cite for currency. For the 2026 edition, the front matter gives "ENISA" as the author.
 
