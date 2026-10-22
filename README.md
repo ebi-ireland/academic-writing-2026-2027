@@ -19,7 +19,6 @@ ATU Donegal / RESR IT801 Research in Computing with Emerging Technologies の作
 - 公式テンプレート(著作権のため.gitignore・ローカルのみ)
 
 ### ルート(全体で共有)
-- `glossary.md` — 学習用用語集
 - `progress-log.md` — 進捗ログ(日付つき会話要約)
 - `topic_candidates_12_detailed.md` / `security_topics_12.docx` — テーマ候補12案(選定の背景)
 

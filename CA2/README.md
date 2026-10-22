@@ -13,4 +13,5 @@
 ## 状態
 - 本格着手は提案書(CA1, 10/23)提出後、11 月から。
 - 公式テンプレート `Project Technical Report Template.docx` はローカル保管(著作権のため .gitignore)。
-- 参考になる確定事項は CA1/methodology-decisions.md、CA1/project-overview.md にある(設計の土台)。
+- 参考になる確定事項は CA1/support/methodology-decisions.md、CA1/support/project-overview.md にある(設計の土台)。
+- `glossary.md` — 学習用用語集(Technical Report の Glossary of Terms 節の土台)。
