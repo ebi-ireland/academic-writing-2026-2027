@@ -24,6 +24,6 @@ D. 効率・サステナビリティを効かせる(仮説 H3 寄り)
 ## Keywords(5 個・候補)
 MITRE ATT&CK / purple teaming / detection engineering / adversary emulation / open-source SIEM
 
-## 決定欄
-- 選んだタイトル: __________________________
-- 選んだキーワード: __________________________
+## 決定(確定)
+- **Title**: Measuring Detection Coverage and Blind Spots of Open-Source Security Tooling Against MITRE ATT&CK Techniques
+- **Keywords**: MITRE ATT&CK, detection coverage, purple teaming, adversary emulation, open-source SIEM
