@@ -9,18 +9,10 @@ ATU Donegal / RESR IT801 Research in Computing with Emerging Technologies の作
 ## 構成
 
 ### CA1/ — 提案書(Project Proposal, 締切 2026-10-23, 40%)
-提案書づくりに直接使うMD。
-- `proposal-outline.md` — 全7節のアウトライン + 語数配分 + Harvard見本 + Kanban案
-- `purple_team_proposal_spec.md` — 提案書の設計図
-- `methodology-decisions.md` — 方法論の5決定(確定)
-- `project-overview.md` — 研究の全体像(理解用の絵)
-- `reading-map.md` — 中核文献の読み方
-- `reference_list_verified.md` / `zotero_reference_list.md` — 文献リスト
-- `cornell-notes-ref01-02.md` / `cornell-notes-ref01-02-en.md` — 文献ノート(日 / 英)
-- `title-options.md` — タイトル候補
-- `acknowledgements-template.md` — AI利用の申告書テンプレ
-- `self-check.md` — 提出前チェック表
-- `Final Year Project Proposal Form(1).docx` — 公式フォーム(著作権のため.gitignore・ローカルのみ)
+セクションごとに「本文を書くファイル」を 01〜07 で用意(`01_title.md` 〜 `07_references.md`)。
+調べ物の詳細は `CA1/support/`。対応表と書く順番は `CA1/README.md` を見る。
+- 提出事務: `acknowledgements.md` / `self-check.md`
+- 公式フォーム(著作権のため.gitignore・ローカルのみ)
 
 ### CA2/ — 技術報告(Project Technical Report, 締切 2026-12-11, 40%)
 提案書提出後、11月から着手。詳細は `CA2/README.md`。
