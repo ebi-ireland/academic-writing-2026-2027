@@ -35,7 +35,7 @@
 ## 3 層のどこを何本で埋めるか(レビュー構成の目安)
 - 層 A 理論の土台: No.1(ATT&CK 設計)+ No.2(CALDERA)※ Cornell ノート済。必要なら Kill Chain / Pyramid of Pain を 1〜2 行。
 - 層 B 中核(検知評価): No.4・No.6・No.8(上の 3 本)+ 任意で No.3・No.9。
-- 層 C 標準・実務(灰色と明記): No.11 MITRE Evaluations / No.12 SCYTHE PTEF / No.14 Red Canary を 1 文ずつ。
+- 層 C 標準・実務(灰色と明記): No.11 SCYTHE PTEF / No.13 Red Canary を 1 文ずつ。
 
 ## ギャップ文(読後にここへ着地させる)
 「ATT&CK を使った検知評価は進んでいるが(No.4)、評価は商用 EDR に偏り(No.6)、

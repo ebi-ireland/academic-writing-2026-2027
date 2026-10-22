@@ -1,4 +1,4 @@
-# Zotero registration list (reference list items 1–14 + 2 candidates)
+# Zotero registration list (reference list items 1–13 + 2 candidates)
 
 Prepared 5 Oct 2026. Source list: `reference_list_verified.md` in the academic-writing-2026-2027 repo.
 
@@ -7,7 +7,7 @@ Prepared 5 Oct 2026. Source list: `reference_list_verified.md` in the academic-w
 - **⚠** = could not be confirmed from an official record. Left blank or marked; please check before citing.
 - **Fields not listed** (Abstract, Language, Library Catalog, Call Number, Archive…) can stay empty.
 - **Accessed**: fill in the date you actually open the page; Harvard UL requires it for online sources.
-- **Faster route**: for items with a DOI or arXiv ID, Zotero's *Add Item by Identifier* (magic-wand button) fills most fields automatically. Then compare against this list. An importable file is alongside: `zotero_reference_list.ris` (File → Import). It holds 15 items: everything except no. 11, MITRE Evaluations, whose page you still need to choose, and the ENISA 2025 alternative. After importing, check the item type of the preprints (3, 5, 9, 10). RIS has no dedicated preprint type, so change them to **Preprint** if Zotero imports them as Manuscript.
+- **Faster route**: for items with a DOI or arXiv ID, Zotero's *Add Item by Identifier* (magic-wand button) fills most fields automatically. Then compare against this list. An importable file is alongside: `zotero_reference_list.ris` (File → Import). It holds everything except MITRE ATT&CK Evaluations (removed from this list) and the ENISA 2025 alternative. After importing, check the item type of the preprints (3, 5, 9, 10). RIS has no dedicated preprint type, so change them to **Preprint** if Zotero imports them as Manuscript.
 - **DOI/ISBN on Report items**: if your Zotero version shows no DOI or ISBN field for a Report, put them in **Extra** as `DOI: …` / `ISBN: …` on separate lines. Zotero passes these to the citation style.
 - **Corporate authors** (ENISA, Red Canary, MITRE, SCYTHE): click the small "switch to single field" icon next to the author box and enter the organisation name as one field.
 
@@ -230,22 +230,7 @@ Notes: your list had no authors. No published version was found.
 
 ## Layer C: Standards / practice (grey literature)
 
-### 11. MITRE ATT&CK Evaluations
-| Field | Value |
-|---|---|
-| Item Type | **Web Page** |
-| Title | ⚠ depends on which page you cite (see note) |
-| Author | MITRE *(single-field / corporate)* |
-| Website Title | MITRE ATT&CK Evaluations |
-| URL | ⚠ see note |
-| Accessed | *(your date)* |
-| Extra | Grey literature |
-
-**Harvard:** ⚠ Template until you choose the evaluation round: MITRE (Year). *[Title of the evaluation round page]*. Online. MITRE ATT&CK Evaluations. Available at: [URL of that page] [Accessed Day Month Year].
-
-Notes: ⚠ **The URL in your list points to the wrong page.** `attack.mitre.org/resources/adversary-emulation-plans/` is the *adversary emulation plans* page, not the Evaluations. The Evaluations (methodology and results) are published on MITRE's separate Evaluations site. Cite the specific round you use, e.g. "Enterprise 2024", with its own page URL and title. I did not register a single page here because the right one depends on the round you read.
-
-### 12. SCYTHE: Purple Team Exercise Framework (PTEF)
+### 11. SCYTHE: Purple Team Exercise Framework (PTEF)
 | Field | Value |
 |---|---|
 | Item Type | **Report** |
@@ -263,7 +248,7 @@ Notes: ⚠ **The URL in your list points to the wrong page.** `attack.mitre.org/
 
 Notes: Report (not Software) because PTEF is a methodology document. For Harvard, use "n.d." unless you find a date in PTEFv4.md.
 
-### 13. Olsen: Enterprise Purple Teaming: An Exploratory Qualitative Study
+### 12. Olsen: Enterprise Purple Teaming: An Exploratory Qualitative Study
 | Field | Value |
 |---|---|
 | Item Type | **Thesis** |
@@ -281,7 +266,7 @@ Notes: Report (not Software) because PTEF is a methodology document. For Harvard
 
 Notes: **cite the dissertation, not the GitHub repo.** The repo is only a companion. ProQuest blocked my access, so the university, year and degree are not confirmed. The committee names in the repo, and the hosting on the WRLC repository (muislandora), suggest **Marymount University (Arlington, VA)**. That is an inference. Open the ProQuest link and copy the university, year and page count from there.
 
-### 14. Red Canary: Threat Detection Report
+### 13. Red Canary: Threat Detection Report
 | Field | Value |
 |---|---|
 | Item Type | **Report** |
@@ -364,8 +349,7 @@ Notes: the **2026 edition came out on 22 Sep 2026**, which is newer than when yo
 ---
 
 ## What I could not confirm (summary)
-- **Olsen (13)**: university, year, degree, pages. Open the ProQuest link.
-- **MITRE ATT&CK Evaluations (11)**: your URL is the wrong page; pick the round you cite.
-- **PTEF (12)**: date. Red Canary (14): exact release day and place.
+- **Olsen (12)**: university, year, degree, pages. Open the ProQuest link.
+- **PTEF (11)**: date. Red Canary (13): exact release day and place.
 - **ACM CSUR article number (4)**: Zotero's "Add by Identifier" may fill this.
 - **Preprints 3, 5, 10**: no peer-reviewed version found. I could not reach DBLP, so re-check there before you submit.

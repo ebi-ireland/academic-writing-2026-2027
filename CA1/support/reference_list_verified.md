@@ -9,9 +9,9 @@
 ## 格の内訳(正直な分類)
 - 【格1 査読・強い】No.8(USENIX Security 2024), No.4(ACM Computing Surveys 2024),
   No.2(ACSAC 2016), No.7(ACM AsiaCCS 2024), No.6(J. Cybersecurity and Privacy, MDPI査読誌)
-- 【格2 権威ある企業/技術報告(査読ではないが学術で多数引用)】No.1(MITRE), No.11(MITRE Engenuity), No.14(Red Canary)
+- 【格2 権威ある企業/技術報告(査読ではないが学術で多数引用)】No.1(MITRE), No.13(Red Canary)
 - 【格3 プレプリント(未査読・要確認、掲載済みなら格上げ)】No.3, No.5(arXiv), No.9(SSRN), No.10(arXiv)
-- 【格4 実務フレーム(灰色・明示して控えめに)】No.12(SCYTHE PTEF), No.13(GitHub・最弱=使うなら慎重に)
+- 【格4 実務フレーム(灰色・明示して控えめに)】No.11(SCYTHE PTEF), No.12(GitHub・最弱=使うなら慎重に)
 - 【ブログ級(任意・本文の主張の土台にしない)】Pyramid of Pain。Cyber Kill Chainは企業白書(灰色だが多数引用)
 → 骨格は格1+格2で組む。格3は指導教員が可なら使い掲載先を確認。格4は少数を灰色と明記。ブログ級は避けるか概念紹介に留める。
 
@@ -70,16 +70,13 @@
 ═══════════════════════════════════════════════════════════
 ## 層C: 標準・実務(灰色文献と明示して使う=現在性で加点)
 
-11. MITRE Engenuity ATT&CK Evaluations(EDR評価の方法論・結果)[灰色/権威]
-    URL: https://attack.mitre.org/resources/adversary-emulation-plans/
-
-12. SCYTHE "Purple Team Exercise Framework (PTEF)"(パープルチーム実施の公開標準)[灰色/実務]
+11. SCYTHE "Purple Team Exercise Framework (PTEF)"(パープルチーム実施の公開標準)[灰色/実務]
     URL: https://scythe.io/ptef
 
-13. Olsen, X. "Enterprise Purple Teaming: An Exploratory Qualitative Study" [実務/質的研究]
+12. Olsen, X. "Enterprise Purple Teaming: An Exploratory Qualitative Study" [実務/質的研究]
     URL: https://github.com/ch33r10/EnterprisePurpleTeaming
 
-14. Red Canary "Threat Detection Report"(年次・手法の実観測)[灰色]
+13. Red Canary "Threat Detection Report"(年次・手法の実観測)[灰色]
 
 (標準・要確認で追加候補)
 - NIST SP 800-94(侵入検知・防止ガイド)[標準]
