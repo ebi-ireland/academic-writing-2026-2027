@@ -2,6 +2,16 @@
 対応: Proposal の Introduction(最大 500 語・配点 10%)
 採点: 背景(3)/ 意義(3)/ 問題・目的(4)
 
+## English(提出版・Word フォーム本文)
+
+MITRE ATT&CK is a knowledge base of adversary tactics and techniques based on real-world observations and is widely used as a common language for the design and evaluation of defence systems. However, the defence cannot gain a systematic understanding which ATT&CK techniques they can actually detect in their own environment. Having rules designed to detect attacks is different from actually detecting them and raising alerts.
+
+The blindness of detection results from failure to detect actual infringements. The offence choose techniques that are difficult to detect so that managing with unknown blindness become a risk. It has been reported that even commercial products are not immune to such oversights. (Karantzas and Patsakis, 2021) On the other hand, as open-source detection stacks are available to anyone, there is great value in demonstrating their capabilities and limitations through real-world testing. Moreover, operating a detection stack requires computational costs associated with log collection and rule evaluation. Therefore, this study evaluates both detection performance and resource consumption.
+
+There is a lack of research that measures the coverage of the ATT&CK framework by open-source detection stacks in a reproducible manner. The goal of this study is to conduct adversary emulation using the Atomic Red Team within an isolated VM lab, in order to measure detection coverage and blind spots. The main focus will be on host-based detection, ranging from Sysmon to Wazuh and will be evaluated in conjunction with Sigma. Suricata, which is a network-based solution, will be treated as an optional extension. Furthermore, this study writes its implementation procedures and environment configuration to ensure reproducibility, and clarifies which techniques are detected and which are missed.
+
+---
+
 ## 日本語下書き(英訳前・作業中)
 
 ### 段落1 Background

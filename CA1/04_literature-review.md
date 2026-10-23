@@ -3,40 +3,54 @@
 採点: 批判的評価(10)/ 最新動向(8)/ ギャップ(6)/ 出典(6)
 語数配分: 導入 100 / 層A 300 / 層B 700 / 層C 200 / ギャップ 200
 
-## English draft(Synthesis まで・作業中)
+## English(提出版・Word フォーム本文)
 
-### Introduction
+Introduction
 This review organises the detection assessment based on ATT&CK into three layers; foundation – ATT&CK and adversary emulation, empirical detection evaluation – EDR and detection rules, and standards & practice. Focusing on empirical detection evaluation, this study will critically synthesise the findings from the perspectives of evaluation targets, methods and reproducibility, and identify gaps in this project.
 
-### Foundation: ATT&CK and Adversary Emulation
-ATT&CK is a knowledge base that systematically categorises (NO.1) the behaviour of adversaries observed into tactics and techniques. This concept, which is more specific than Kill Chain and more general than individual IoCs, has become widely adopted as a common framework for detection and exercises. Among the surveys, Roy et al. (NO.3) highlight the need for implementation and evaluation research, whilst Jiang et al. (NO.5) the current limitations. Furthermore, adversary emulation tools such as CALDERA allow the technique to be repeatedly reproduced through executable steps, which is a requirement for reproducible measurements. However, these are just a foundation and do not provide evidence of detection performance. The fact that a technique is listed in ATT&CK (NO.2) does not mean it can be detected.
+Foundation: ATT&CK and Adversary Emulation
+ATT&CK is a knowledge base that systematically categorises (Strom et al., 2020) the behaviour of adversaries observed into tactics and techniques. This concept, which is more specific than Kill Chain and more general than individual IoCs, has become widely adopted as a common framework for detection and exercises. Among the surveys, Al-Sada et al. (2024) provide a broad overview, Roy et al. (2023) highlight the need for implementation and evaluation research, whilst Jiang et al. (2025) review the current limitations. Furthermore, adversary emulation tools such as CALDERA allow the technique to be repeatedly reproduced through executable steps, which is a requirement for reproducible measurements. (Alford et al., 2022) However, these are just a foundation and do not provide evidence of detection performance. The fact that a technique is listed in ATT&CK does not mean it can be detected.
 
-### Empirical Detection Evaluation: EDR and Detection Rules
+Empirical Detection Evaluation: EDR and Detection Rules
+Commercial EDR
+The MITRE Engenuity evaluation is a standard evaluation of commercial products. It recreates the attack chains of real APT groups and publishes the result for each product. Shen et al. (2024) argues that the published results focus on the detection of individual steps. As a result, they do not show whether a product can link the steps into one whole attack. Shen et al. (2024) therefore proposed an analysis based on whole-attack graphs. Another study Karantzas and Patsakis (2021) also evaluates commercial EDR products.
 
-#### Commercial EDR
-The MITRE Engenuity evaluation is a standard evaluation of commercial products. It recreates the attack chains of real APT groups and publishes the result for each product. Study [7] argues that the published results focus on the detection of individual steps. As a result, they do not show whether a product can link the steps into one whole attack. Study [7] therefore proposed an analysis based on whole-attack graphs. Another study [6] also evaluates commercial EDR products.
+Critique:
+This line of work has three limitations. First, it targets commercial products and does not cover free, open-source detection stacks. Second, the products are black boxes, so other researchers cannot reproduce the results or check why a detection succeeded. Third, vendors take part in the evaluation, so the published results alone are not sufficient. The fact that Shen et al. (2024) needed an extra method supports this point.
 
-**Critique:** This line of work has three limitations. First, it targets commercial products and does not cover free, open-source detection stacks. Second, the products are black boxes, so other researchers cannot reproduce the results or check why a detection succeeded. Third, vendors take part in the evaluation, so the published results alone are not sufficient. The fact that study [7] needed an extra method supports this point.
+Detection rules
+Open-source detection mainly relies on shared rules such as Sigma. Uetz et al. (2024) tested 292 Windows process-creation rules by actually reproducing evasions. It found that 38% (110 rules) could be fully evaded and 7% (19 rules) could be partly evaded. The existence of a rule does not guarantee detection. Therefore, coverage should be measured by whether rules actually fire, not by how rules are mapped to ATT&CK. Shukla et al. (2025) argues that redundant rules cause false positives and alert fatigue, and it proposes optimising rules with an LLM.
 
-#### Detection rules
-Open-source detection mainly relies on shared rules such as Sigma. Study [8] tested 292 Windows process-creation rules by actually reproducing evasions. It found that 38% (110 rules) could be fully evaded and 7% (19 rules) could be partly evaded. The existence of a rule does not guarantee detection. Therefore, coverage should be measured by whether rules actually fire, not by how rules are mapped to ATT&CK. Study [10] argues that redundant rules cause false positives and alert fatigue, and it proposes optimising rules with an LLM. Another study [9] also deals with rule quality.
 
-**Critique:** Study [8] covers individual rules and only process creation, so it does not cover ATT&CK as a whole. Study [10] deals with duplicate rules, but it does not measure ATT&CK coverage or rule firing against real attacks.
 
-#### Synthesis
-| Aspect | Commercial EDR evaluation | Rule quality studies | This study |
-|---|---|---|---|
-| Target | Products | Single rules or rule sets | Open-source detection stack |
-| Measured against ATT&CK | Yes | Partly | Yes |
-| Reproducibility | Low | Varies by study | Environment, procedure, and versions are fixed |
 
+Critique:
+Uetz et al. (2024) covers individual rules and only process creation, so it does not cover ATT&CK as a whole. Shukla et al. (2025) deals with duplicate rules, but it does not measure ATT&CK coverage or rule firing against real attacks.
+
+Synthesis
+Aspect
+Commercial EDR evaluation
+Rule quality studies
+This study
+Target
+Products
+Single rules or rule sets
+Open-source detection stack
+Measured against ATT&CK
+Yes
+Partly
+Yes
+Reproducibility
+Low
+Varies by study
+Environment, procedure, and versions are fixed
 Commercial EDR studies have real ATT&CK measurements, but their results cannot be reproduced. Rule quality studies are open, but they do not measure detection across ATT&CK as a whole. Within the scope of this review, no study was found that fills the gap between the two approaches.
 
-### Standards & Practice
-The SCYTHE Purple Team Exercise Framework [11] publishes the planning, running, and improvement of purple team exercises in a reusable format. It is a practical reference for designing the evaluation procedure. The Red Canary report [13] lists the ATT&CK techniques that are most common in real environments every year. It gives a basis for choosing which techniques to test. However, the method is not guaranteed to be as rigorous as that of peer-reviewed work.
+Standards & Practice
+The SCYTHE Purple Team Exercise Framework (SCYTHE, n.d.) documents the planning, running, and improvement of purple team exercises in a reusable format. It is a practical reference for designing the evaluation procedure. The Red Canary report (Red Canary, 2026) lists the ATT&CK techniques that are most common in real environments every year. It gives a basis for choosing which techniques to test. However, the method is not guaranteed to be as rigorous as that of peer-reviewed work.
 
-### Gap
-The literature shows three points. First, evaluation is biased toward commercial products [7]. Second, rule studies address the evasion resistance of individual rules [8] and rule duplication [10], but they do not measure the ATT&CK coverage of a whole detection stack. Third, reproducibility is missing. For open-source setups, we found no results that can be measured again with a fixed environment, procedure, and rule version. Therefore, few studies have measured the ATT&CK coverage of open-source detection stacks in a reproducible way. This project addresses this gap. It runs techniques automatically with adversary emulation and measures whether each technique is detected, using a fixed environment and procedure.
+Gap
+The literature shows three points. First, evaluation is biased toward commercial products (Shen et al., 2024). Second, rule studies address the evasion resistance of individual rules (Uetz et al., 2024) and rule duplication (Shukla et al., 2025), but they do not measure the ATT&CK coverage of a whole detection stack. Third, reproducibility is missing. For open-source detection stacks, no results was found that can be measured again with a fixed environment, procedure, and rule version. Therefore, few studies have measured the ATT&CK coverage of open-source detection stacks in a reproducible way. This project addresses this gap. It runs techniques automatically with adversary emulation and measures whether each technique is detected in a fixed environment and procedure.
 
 ---
 

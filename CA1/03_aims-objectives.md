@@ -2,6 +2,21 @@
 対応: Proposal の Aims & Objectives(最大 250 語・配点 10%)
 採点: 全体目標(4)/ SMART 目標(6)
 
+## English(提出版・Word フォーム本文)
+
+Aim:
+To measure and evaluate the coverage and blind spots of the ATT&CK framework in open-source detection stacks in a reproducible manner.
+
+Objectives:
+Setting up a laboratory: set up an isolated VM lab comprising targets, log collection, SIEM, execution and aggregation, and verify the operation of all components. [ by week 8 ]
+Implementation of the technique (PoC): execute the 5 predefined techniques in a public test (Atomic Red Team). [ by the end of this semester ]
+Creating a marking scheme: define and document the criteria for scoring the detection of each technology on a three-tier scale: detected, telemetry-only and missed. [ before execution ]
+Measuring coverage and blind spots: expand the set of target technologies to 8 items and measure the coverage and blind spots for each tactical category. [ by the end of next semester ]
+Verification of robustness: execute the detected variant of the technology and check whether the detection persists.
+The relationship between the number of rules and coverage: analyse the relationship between the number of valid rules and coverage, taking into account computational costs such as CPU and memory usage.
+
+---
+
 ## 日本語下書き(英訳前・作業中)
 
 ### Overall Aim

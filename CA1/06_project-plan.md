@@ -2,6 +2,81 @@
 対応: Proposal の Project Plan / Resources(最大 400 語・配点 10%)
 採点: タイムライン(6)・体裁(4)
 
+## English(提出版・Word フォーム本文)
+
+Timeline
+Week 7-8: Build the lab
+Set up the target VM and Wazuh, send the logs to Wazuh, and make the lab ready to run the public Atomic Red Team tests. Deliverable: a working lab that shows detection logs.
+
+Week 9-10: Measure and score
+Run the public tests and score each detection result in three stages. Show the coverage by tactic as a heatmap in ATT&CK Navigator. Deliverables: a scoring table and a coverage heatmap.
+
+Week 11: Blind sports and drafts
+List the undetected techniques as blind spots, and draft the report and the demo. Optionally, try Sigma rules to improve detection. Deliverables: the blind spot list and the drafts.
+
+Week 12: Submit the technical report and the demo.
+
+Progress is managed on a Kanban board in GitHub Projects. Each card has a target date (week) and a risk level. Sending logs to Wazuh is likely to be delayed, so this task will be finished by Week 8 to leave enough time for measurement. The full measurement will continue next semester.
+
+
+Resources
+Software: VirtualBox, Atomic Red Team, Wazuh, Sysmon, Sigma, ATT&CK Navigator, and GitHub Projects.
+
+Hardware: A personal PC (Core i7-8650U, 24 GB RAM)
+
+Data: Only MITRE ATT&CK and the public Atomic Red Team tests are used. No original data is collected.
+
+Kanban Board *Draft
+Card
+Column
+Milestone
+Target date
+Risk
+Write and submit the proposal (CA1)
+Done
+Proposal
+Week 6
+Low
+Build the lab VM (target and Sysmon)
+To Do
+Lab build
+Week 7
+Medium
+Set up Wazuh and collect logs
+To Do
+Lab build
+Week 8
+High
+Make the public tests ready to run
+Backlog
+Lab build
+Week 8
+Medium
+Create the three stage scoring method
+Backlog
+Measure and score
+Week 9
+Medium
+Make the coverage heatmap in ATT&CK Navigator
+Backlog
+Measure and score
+Week 10
+Low
+Create the blind spot list
+Backlog
+Wrap-up
+Week 11
+Low
+Report (CA2) and demo (CA3)
+Backlog
+Report and demo
+Week 12
+Medium
+
+Are you requesting a loan of hardware from the department?      Yes ☐        No ☒
+
+---
+
 ## 日本語下書き(英訳前・作業中)
 
 ### 1. タイムライン(週ごとのマイルストーン)

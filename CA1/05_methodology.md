@@ -2,6 +2,55 @@
 対応: Proposal の Methodology(最大 750 語・配点 30%)
 採点: 研究設計(8)/ 評価・成功指標(4)/ ツール(6)/ 倫理・法・環境(6)/ 正当化・実現可能性(6)
 
+## English(提出版・Word フォーム本文)
+
+Research Design Methods
+This study is an experiment and measurement study. Existing detection methods are not compared with each other. Instead, attack techniques are reproduced in a controlled environment, and the detection result for each technique is measured. The independent variable is the ATT&CK technique, and the dependent variable is the detection result.
+
+The isolated lab on a personal PC has five parts:
+A victim Windows VM
+Sysmon, which collects telemetry
+A Wazuh agent
+A Wazuh manager
+Atomic Red Team, which reproduces the attacks
+
+The measurement repeats the following loop. (1) Select a target technique. (2) Run the technique with Atomic Red Team. (3) Record the Sysmon logs, the rule matches, and the Wazuh alerts. (4) Judge and record the result, then move to the next technique. The Sysmon configuration is fixed for all trials and treated as a controlled variable. Therefore, differences in results come from the techniques and rules, not from the configuration.
+
+Evaluation & Success Measures
+After each run, the result is diagnosed in three stages:
+Stage 1: the activity is recorded in the Sysmon logs.
+Stage 2: a Sigma rule matches the log.
+Stage 3: an alert appears in Wazuh.
+If Stage 3 is reached, the result is detected. If Stage 1 is reached but Stage 3 is not, the result is telemetry-only. If Stage 1 is not reached and no log is produced, the result is missed.
+
+The successful measures are the overall detection rate, the coverage by ATT&CK tactic, and the identification of blind spots. There are two types of blind spot. Telemetry-only is a rule gap: a log is produced, but no rule detects the activity. A rule gap is fixed by adding rules. Missed is a visibility gap: the activity never appears in the logs. A visibility gap is fixed by reviewing the telemetry settings. This distinction is the main strength of the evaluation. The results are shown in colour in ATT&CK Navigator. The project succeeds if blind spots are shown with evidence and the same procedure can reproduce the results.
+
+Tools & Techniques
+Wazuh is an open-source platform that handles log collection, rule evaluation, and alerts together. Wazuh runs on a personal PC at no cost.
+Sigma is a vendor-neutral rule format that shows the source and target technique of each rule, which improves reproducibility.
+Sysmon provides the detailed Windows telemetry that detection needs, such as process creation and network connections.
+Atomic Red Team offers small tests that map one-to-one to ATT&CK techniques. These tests suit measurement per technique.
+ATT&CK Navigator shows tactic coverage and blind spots at a glance.
+GitHub controls the versions of the configuration, rules, results, and scripts. This keeps the work history.
+GitHub Projects (Kanban) manages the trial of each technique and each increment as tasks in the same place as the repository.
+
+Software Development Methodology
+This project uses incremental development. First, a minimal proof of concept (PoC) is built, in which one technique goes through one full cycle of run, record, and judge. After that, more techniques and tactics are added in small steps. At the end of each increment, the results are checked and the next scope is decided. This keeps rework small and progress easy to check.
+
+Ethical, Legal & Environmental Considerations
+All attack reproduction is done in a lab that is isolated from external networks. This study does not touch the systems or data of any real organisation, and no personal data is handled. All tools are public, legitimate tools, and the licence terms are followed. This study is limited to evaluating the detection ability of defenders. The results will not include details that could help misuse. This study evaluates not only detection performance but also computational cost and resource consumption, thereby incorporating the perspective of sustainable detection.
+
+
+Justification & Feasibility
+This project runs on a personal PC, so no extra cost or outside permission is needed. The scope is limited to a small set of techniques and tactics, and the goal for this semester is to complete the PoC. Rather than narrowing the scope, the project prioritises the accuracy and reproducibility of the measurements.
+
+Ethical Approval
+The study does not collect data from people, so ethics review is expected to be unnecessary. This point will be confirmed at the ethics workshop.
+
+Does this project require ethical approval?      Yes ☐        No ☒
+
+---
+
 ## 日本語下書き(英訳前・作業中)
 
 ### Research Design & Methods(目安 約200語)
