@@ -33,10 +33,10 @@ Open-source detection mainly relies on shared rules such as Sigma. Study [8] tes
 Commercial EDR studies have real ATT&CK measurements, but their results cannot be reproduced. Rule quality studies are open, but they do not measure detection across ATT&CK as a whole. Within the scope of this review, no study was found that fills the gap between the two approaches.
 
 ### Standards & Practice
-(作業中)
+The SCYTHE Purple Team Exercise Framework [11] publishes the planning, running, and improvement of purple team exercises in a reusable format. It is a practical reference for designing the evaluation procedure. The Red Canary report [13] lists the ATT&CK techniques that are most common in real environments every year. It gives a basis for choosing which techniques to test. However, the method is not guaranteed to be as rigorous as that of peer-reviewed work.
 
 ### Gap
-(作業中)
+The literature shows three points. First, evaluation is biased toward commercial products [7]. Second, rule studies address the evasion resistance of individual rules [8] and rule duplication [10], but they do not measure the ATT&CK coverage of a whole detection stack. Third, reproducibility is missing. For open-source setups, we found no results that can be measured again with a fixed environment, procedure, and rule version. Therefore, few studies have measured the ATT&CK coverage of open-source detection stacks in a reproducible way. This project addresses this gap. It runs techniques automatically with adversary emulation and measures whether each technique is detected, using a fixed environment and procedure.
 
 ---
 
