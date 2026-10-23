@@ -13,3 +13,6 @@ Thumbs.db
 Desktop.ini
 ~$*
 .DS_Store
+
+# 個人情報(本名・学籍番号)を含む提出物 — 公開しない(Blackboard提出のみ)
+Acknowledgements*.docx
