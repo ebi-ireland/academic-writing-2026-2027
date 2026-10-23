@@ -275,11 +275,11 @@ Notes: **cite the dissertation, not the GitHub repo.** The repo is only a compan
 | Institution | Red Canary |
 | Place | ⚠ not confirmed |
 | Date | 2026-03 |
-| URL | https://redcanary.com/threat-detection-report/ |
+| URL | https://www.zscaler.com/resources/industry-reports/red-canary-2026-threat-detection-report.pdf |
 | Accessed | *(your date)* |
 | Extra | Grey literature. Annual. |
 
-**Harvard:** Red Canary (2026). *2026 Threat Detection Report*. Online. Red Canary. Available at: https://redcanary.com/threat-detection-report/ [Accessed 5th October 2026].
+**Harvard:** Red Canary (2026). *2026 Threat Detection Report*. Online. Red Canary. Available at: https://www.zscaler.com/resources/industry-reports/red-canary-2026-threat-detection-report.pdf [Accessed 5th October 2026].
 
 Notes: the current edition is 2026, released in mid-March 2026. A press article of 25 Mar 2026 says it "came out last week", but I found no exact day. Your list gave no year. If you used an earlier edition, change the year in the title and date.
 

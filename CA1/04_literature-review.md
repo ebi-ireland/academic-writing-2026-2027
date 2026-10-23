@@ -87,5 +87,5 @@ SCYTHE の PTEF [11] はパープルチーム演習の計画・実施・改善�
 - [9] SSRN abstract 6823718 [書誌を要確認].
 - [10] Shukla, A. et al. (2025). RuleGenie: SIEM Detection Rule Set Optimization. arXiv:2505.06701.
 - [11] SCYTHE, Purple Team Exercise Framework. https://github.com/scythe-io/purple-team-exercise-framework
-- [13] Red Canary, Threat Detection Report. https://redcanary.com/threat-detection-report/
+- [13] Red Canary, Threat Detection Report. https://www.zscaler.com/resources/industry-reports/red-canary-2026-threat-detection-report.pdf
 - (参考)[12] ProQuest docview/2658836337:内容未確認のため本文では未引用。
