@@ -40,9 +40,13 @@ How the output was changed/used: Claude's output was used as ideas, structure, a
 Note on authorised use: under the module's GenAI policy, idea generation and brainstorming are permitted, whereas writing assistance for the proposal is not. My use stayed within idea generation, structuring, literature support, translation of my own notes, and feedback; the proposal text is my own work.
 
 ## Appendix A — Representative prompts (Japanese original + English translation)
-1. [原文] ___________  /  [EN] ___________
-2. [原文] ___________  /  [EN] ___________
-3. [原文] ___________  /  [EN] ___________
+(代表例。自分が実際に送ったものに近づけて調整してよい。全プロンプトを載せる必要はない。)
+1. [原文] Emerging Technologies(AI×サイバーセキュリティ)で最終プロジェクトのテーマ候補を出して。
+   [EN] Suggest candidate project topics in AI and cybersecurity for the Emerging Technologies module.
+2. [原文] この研究の文献レビューを3層で整理する構成と、読むべき文献を教えて。
+   [EN] Help me structure the literature review in three layers and suggest relevant sources to read.
+3. [原文] この英語の段落の文法・不自然さ・語数・採点項目を指摘して(本文は自分で直す)。
+   [EN] Point out grammar, clarity, word count and rubric coverage in this English paragraph (I will edit it myself).
 
 ## Appendix B — Record of interactions
 A summary of the sessions is kept in the project repository (communication/ folder).
