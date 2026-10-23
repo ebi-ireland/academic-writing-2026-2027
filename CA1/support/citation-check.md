@@ -96,11 +96,11 @@
 # 4. Literature Review — Standards & Practice
 ====================================================================
 
-[11] ?
+[11] ✓(確認済: PTEFは計画・実施・改善の再利用可能な枠組み)
 > The SCYTHE Purple Team Exercise Framework [11] documents the planning, running, and improvement of purple team exercises in a reusable format.
 - 置換: [11] → (SCYTHE, n.d.)
 
-[13] ?
+[13] ✓(確認済: 実環境で最多のATT[13] ?CK手法を毎年ランキング)
 > The Red Canary report [13] lists the ATT&CK techniques that are most common in real environments every year.
 - 置換: [13] → (Red Canary, 2026)
 
