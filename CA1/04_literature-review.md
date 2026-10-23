@@ -3,6 +3,43 @@
 採点: 批判的評価(10)/ 最新動向(8)/ ギャップ(6)/ 出典(6)
 語数配分: 導入 100 / 層A 300 / 層B 700 / 層C 200 / ギャップ 200
 
+## English draft(Synthesis まで・作業中)
+
+### Introduction
+This review organises the detection assessment based on ATT&CK into three layers; foundation – ATT&CK and adversary emulation, empirical detection evaluation – EDR and detection rules, and standards & practice. Focusing on empirical detection evaluation, this study will critically synthesise the findings from the perspectives of evaluation targets, methods and reproducibility, and identify gaps in this project.
+
+### Foundation: ATT&CK and Adversary Emulation
+ATT&CK is a knowledge base that systematically categorises (NO.1) the behaviour of adversaries observed into tactics and techniques. This concept, which is more specific than Kill Chain and more general than individual IoCs, has become widely adopted as a common framework for detection and exercises. Among the surveys, Roy et al. (NO.3) highlight the need for implementation and evaluation research, whilst Jiang et al. (NO.5) the current limitations. Furthermore, adversary emulation tools such as CALDERA allow the technique to be repeatedly reproduced through executable steps, which is a requirement for reproducible measurements. However, these are just a foundation and do not provide evidence of detection performance. The fact that a technique is listed in ATT&CK (NO.2) does not mean it can be detected.
+
+### Empirical Detection Evaluation: EDR and Detection Rules
+
+#### Commercial EDR
+The MITRE Engenuity evaluation is a standard evaluation of commercial products. It recreates the attack chains of real APT groups and publishes the result for each product. Study [7] argues that the published results focus on the detection of individual steps. As a result, they do not show whether a product can link the steps into one whole attack. Study [7] therefore proposed an analysis based on whole-attack graphs. Another study [6] also evaluates commercial EDR products.
+
+**Critique:** This line of work has three limitations. First, it targets commercial products and does not cover free, open-source detection stacks. Second, the products are black boxes, so other researchers cannot reproduce the results or check why a detection succeeded. Third, vendors take part in the evaluation, so the published results alone are not sufficient. The fact that study [7] needed an extra method supports this point.
+
+#### Detection rules
+Open-source detection mainly relies on shared rules such as Sigma. Study [8] tested 292 Windows process-creation rules by actually reproducing evasions. It found that 38% (110 rules) could be fully evaded and 7% (19 rules) could be partly evaded. The existence of a rule does not guarantee detection. Therefore, coverage should be measured by whether rules actually fire, not by how rules are mapped to ATT&CK. Study [10] argues that redundant rules cause false positives and alert fatigue, and it proposes optimising rules with an LLM. Another study [9] also deals with rule quality.
+
+**Critique:** Study [8] covers individual rules and only process creation, so it does not cover ATT&CK as a whole. Study [10] deals with duplicate rules, but it does not measure ATT&CK coverage or rule firing against real attacks.
+
+#### Synthesis
+| Aspect | Commercial EDR evaluation | Rule quality studies | This study |
+|---|---|---|---|
+| Target | Products | Single rules or rule sets | Open-source detection stack |
+| Measured against ATT&CK | Yes | Partly | Yes |
+| Reproducibility | Low | Varies by study | Environment, procedure, and versions are fixed |
+
+Commercial EDR studies have real ATT&CK measurements, but their results cannot be reproduced. Rule quality studies are open, but they do not measure detection across ATT&CK as a whole. Within the scope of this review, no study was found that fills the gap between the two approaches.
+
+### Standards & Practice
+(作業中)
+
+### Gap
+(作業中)
+
+---
+
 ## 日本語下書き(英訳前・作業中)
 
 ### 1. 導入
